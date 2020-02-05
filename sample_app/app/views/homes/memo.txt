@@ -1,0 +1,18 @@
+section [ Rails ]
+
+・vagarant
+vagrant  ディレクトリへ移動
+vagrantの起動　vagrant up
+vagrantのssh  vagrant ssh
+仮想環境のvagrantへ移動　cd vagrant/
+
+・rails
+フレームワークの作成　rails new アプリケーション名
+作成したアプリケーションへ移動　cd アプリケーション名
+コントローラの作成　rails g controller コントローラ名
+　-トップアクションの定義
+ -ルーティングの定義
+ -Viewファイルの作成
+ -Modelの作成
+ -
+
