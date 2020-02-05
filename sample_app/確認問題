@@ -14,3 +14,7 @@ Q3 - a
 8章
 Q1 - a  → c　Gemfileの書き方は　gem 'gem名'
 Q2 - b　→ a  rails g migration Addカラム名Toテーブル名　カラム名：データ型
+
+9章
+Q1  - c　→ b 
+Q2  - a  <%= link_to "表示するテキスト",URL,method: :delete %>
