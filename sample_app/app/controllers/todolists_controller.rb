@@ -6,10 +6,19 @@ class TodolistsController < ApplicationController
  def create
     #ストロングパラメーターを使用
  	list = List.new(list_params)
-# 　　DBへ保存する
+# DBへ保存する
  	list.save
-# 　　　リダイレクトの設定
- 	redirect_to'/top'
+
+ 	redirect_to todolist_path(list.id)
+end
+
+def index
+	@lists = List.all
+end
+
+def show
+	@list = List.find(params[:id])
+
 end
 
  private

@@ -1,0 +1,8 @@
+6章　確認問題
+
+q1 - 2
+q2 - a → c <% @lists.each do |list| %>
+q3 - a → d def show @list = List.find(params[:id])
+q4 - a
+
+
