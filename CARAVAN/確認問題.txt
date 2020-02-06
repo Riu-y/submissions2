@@ -13,3 +13,14 @@ Q1 - b  <%= link_to post.title,post_path(post)%>
 Q2 - a  <% @posts.each do |post| %>
 =をつける場合はViewに表示される処理となる
 
+5章
+Q1 - c → a editのform_forはnewと同じ物を使ってよい
+	def new 
+	   @blog = Blog.new
+
+	def edit
+	  @blog = Blog.find(params[:id])
+
+Q2 - d → a　
+
+
