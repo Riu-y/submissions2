@@ -1,9 +1,15 @@
-1章
+2章
 Q1 - a
 Q2 - d resources :posts 　※コロンの後に対応するコントローラ名をつける
 Q3 - d
 resouces :post,only:[:index]
 
-2章
+3章
 Q1 - a → b @blog = Blog.new
 Q2 - d <%= form_for(インスタンス) do |f| %>
+
+4章
+Q1 - b  <%= link_to post.title,post_path(post)%>
+Q2 - a  <% @posts.each do |post| %>
+=をつける場合はViewに表示される処理となる
+
