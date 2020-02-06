@@ -1,0 +1,7 @@
+1章
+Q1 - a
+Q2 - d resources :posts 　※コロンの後に対応するコントローラ名をつける
+Q3 - d
+resouces :post,only:[:index]
+
+
