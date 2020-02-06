@@ -4,4 +4,6 @@ Q2 - d resources :posts 　※コロンの後に対応するコントローラ�
 Q3 - d
 resouces :post,only:[:index]
 
-
+2章
+Q1 - a → b @blog = Blog.new
+Q2 - d <%= form_for(インスタンス) do |f| %>
