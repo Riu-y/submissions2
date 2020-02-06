@@ -14,6 +14,9 @@ Q2 - a  <% @posts.each do |post| %>
 =をつける場合はViewに表示される処理となる
 
 5章
+なし
+
+6章
 Q1 - c → a editのform_forはnewと同じ物を使ってよい
 	def new 
 	   @blog = Blog.new
@@ -21,6 +24,7 @@ Q1 - c → a editのform_forはnewと同じ物を使ってよい
 	def edit
 	  @blog = Blog.find(params[:id])
 
-Q2 - d → a　
+Q2 - d → a
 
-
+7章
+Q1  - b  <%= link_to "削除", blog_path(@blog),method::delete %>
