@@ -6,4 +6,4 @@ class User < ApplicationRecord
 
      has_many :post_image,dependent: :destroy
 end
-
+ 
